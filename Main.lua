@@ -16,7 +16,8 @@ local readValues = function ()
 end
 
 a , b = readValues()
-print(a, b)
+sumToPrint = mymath.add(a, b)
+print("The sum is " .. sumToPrint)
 
 
 
