@@ -1,11 +1,8 @@
-function welcome() -- Function
-    print("What's your name?")
-    local name = io.read() -- Read something from the terminal
-    return name
-end -- End Function
-
+require("welcome")
 local player = welcome()
+
+
 
 -- Both are the same
 print("Your name is " .. player) -- Concat
-print("Your name is", player)
+print("Your name is", player) -- It introduces more spaces
